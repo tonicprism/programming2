@@ -71,13 +71,13 @@ public class Pessoa {
     // Método beber;
     public static void beber(String nome, int idade) {
         if (nome == "Rocky" || nome == "Rocky Balboa") {
-            System.out.println("Rocky está bebendo o ovo da vitória...");
+            System.out.println("Rocky está bebendo a gema de ovo da vitória...");
         }
         else if (nome == "Natasha" || nome == "Natasha Romanova") {
-            System.out.println("Natasha está bebendo uma vodka no frio russo...");
+            System.out.println("Natasha está bebendo uma vodka, no frio russo...");
         }
         else if (nome == "Lara" || nome == "Lara Croft") {
-            System.out.println("Lara está bebendo um chá, no seu descanso de tarde...");
+            System.out.println("Lara está bebendo um chá, no seu descanso da tarde...");
         }
         else if (nome == "Homer" || nome == "Homer Simpson") {
             System.out.println("Homer está bebendo sua cerveja Duff...");
@@ -168,7 +168,10 @@ public class Pessoa {
         }
         else if (nome == "Lara" || nome == "Lara Croft"){
             System.out.println("Lara Croft é uma personagem fictícia e a protagonista da série de videojogos Tomb Raider da Square Enix. \nLara é apresentada como uma mulher bonita, \ninteligente e atlética, uma arqueóloga britânica que se aventura em antigas tumbas e \nruínas perigosas ao redor do mundo à procura de artefactos valiosos.");
-        };
+        }
+        else {
+            System.out.println(nome + " É um objeto!");
+        }
     };
     
     // Método main  que irá conter os novos objetos criados
