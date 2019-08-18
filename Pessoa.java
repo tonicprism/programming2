@@ -10,7 +10,7 @@ package Pessoa;
  * @author Luiz
  */
 public class Pessoa {
-    // Estados
+    // Estados/propriedade;
     private String nome;
     private String gênero;
     public String cor_olhos;
@@ -68,6 +68,7 @@ public class Pessoa {
             System.out.println(nome + " está comendo...");
         };
     };
+    // Método beber;
     public static void beber(String nome, int idade) {
         if (nome == "Rocky" || nome == "Rocky Balboa") {
             System.out.println("Rocky está bebendo o ovo da vitória...");
@@ -173,7 +174,7 @@ public class Pessoa {
     // Método main  que irá conter os novos objetos criados
     public static void main(String[] args) {
         // Criando uma novo objeto da class Pessoa: aluno; E atribuindo a ela os atributos
-                Pessoa aluno = new Pessoa();
+        Pessoa aluno = new Pessoa();
         aluno.nome = "Luiz Gustavo";
         aluno.gênero = "masculino";
         aluno.altura = 1.70f;
