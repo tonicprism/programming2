@@ -156,7 +156,7 @@ public class Pessoa {
         }
     };
     // Método descrição, que serve para definir cada objeto, ou pelo menos, uma pequena descrição;
-    public static void descrição(String nome){
+    public static void descrever(String nome){
         if (nome == "Homer Simpson" || nome == "Homer") {
             System.out.println("Homer Jay Simpson é um personagem de desenho animado criado por Matt Groening, \né o patriarca da família Simpsons, uma série de televisão da FOX. \nSua primeira aparição na televisão ocorreu em 19 de abril de 1987. \nMatt Groening o criou enquanto este estava na sala de espera do escritório de James L. Brooks.");
         }
@@ -189,7 +189,7 @@ public class Pessoa {
         aluno.nacionalidade = "brasileiro";
         aluno.peso = 60;
         aluno.étnia = "branco";
-        aluno.ocupação = "estudante do curso de engenharia de software na upe-garanhuns";
+        aluno.ocupação = "estudante do curso de engenharia de software no campus upe-garanhuns";
         aluno.idade = 17;
         // Métodos com o novo objeto aluno;
         /*
