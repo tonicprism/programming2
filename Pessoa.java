@@ -134,7 +134,7 @@ public class Pessoa {
             System.out.println(nome + " está lutando...");
         }
     };
-    // Método dança;
+    // Método dançar;
     public static void dançar(String nome){
         if(nome == "Natasha Romanova"){
             System.out.println("Natasha é uma bailarina tão habilidosa quanto assassina...");
@@ -173,7 +173,10 @@ public class Pessoa {
             System.out.println(nome + " É um objeto!");
         }
     };
-    
+    // Método dormir;
+    public static void dormir(String nome){
+        System.out.println(nome + " está dormindo... ZzZzZzZzZzZzZzZz");
+    };
     // Método main  que irá conter os novos objetos criados
     public static void main(String[] args) {
         // Criando uma novo objeto da class Pessoa: aluno; E atribuindo a ela os atributos
