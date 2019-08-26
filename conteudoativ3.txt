@@ -1,0 +1,39 @@
+Vertebrados
+	Peixes - tubarão/oceanos/carnívoro-peixes menores/microscópicas escamas com arestas, chamadas "dentículos";
+	Anfíbios - sapo/ambientes úmidos/carnívoro-insetos/pele rugosa com glândulas parotoides;
+	Répteis - tartaruga/oceanos/onívora/pele seca/parte óssea(carapaça);
+	Aves - galinha/florestas/herbívoras-frutas e grãos/pena;
+	Mamíferos - leão/selvas/carnívoro/pelagem-baixa/;
+Invertebrados
+	Cnidários = águas-vivas/oceanos/carnívoras/nematocistos em sua pele que utilizam para capturar e matar os alimentos;
+	Artrópodes - borboleta/todo lugar-com dificuldade em desertos arídos e na Antártida/liquidos-néctar/escamosas, com asas das mais variadas cores;
+	Moluscos - polvo/oceanos temperados/Carnívoros/escama;
+	Anelídeos - minhoca/solos úmidos/onívora/áspera, devido à presença de fileiras de microscópicas cerdas de quitina;
+
+Lista Atributos
+nome
+ondeVive
+dieta
+pele
+Lista de Comportamentos
+void caçar();
+void caminhar();
+void dormir();
+void seAlimentar();
+
+public void caçar()
+{
+	System.out.println(nome+" está caçando...");
+}
+public void caminhando()
+{
+	System.out.println(nome+" está caminhando...");
+}
+public void dormindo()
+{
+	System.out.println(nome+" está dormindo...ZZZZZZZZ");
+}
+public void seAlimentar()
+{
+	System.out.println(nome+" está se alimentando...");
+}
