@@ -5,7 +5,7 @@ import java.util.TimerTask;
 import java.util.*;
 import java.util.Scanner;
 
-public class Ex07 {
+public class Ex7 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int somaChapa1 = 0;
@@ -15,12 +15,12 @@ public class Ex07 {
 		long end = t+60000;
 		try {
 			while(System.currentTimeMillis()<end) {
-				System.out.println("Digite o número da chapa que você quer votar[1 ou 2]");
-				int votação = s.nextInt();
-				if(votação != 2 && votação != 1) {
+				System.out.println("Digite o nÃºmero da chapa que vocÃª quer votar[1 ou 2]");
+				int votaÃ§Ã£o = s.nextInt();
+				if(votaÃ§Ã£o != 2 && votaÃ§Ã£o != 1) {
 					System.out.println("Wrong number");
 				} else {
-					if(votação == 1) {
+					if(votaÃ§Ã£o == 1) {
 						somaChapa1++;
 					} else {
 						somaChapa2++;
@@ -35,7 +35,7 @@ public class Ex07 {
 				System.out.println("Chapa 2 venceu!");
 			}
 		} catch (Exception e) {
-			System.out.println("Este valor não é um número, rode o programa de novo por favor...");	
+			System.out.println("Este valor nÃ£o Ã© um nÃºmero, rode o programa de novo por favor...");	
 		}
 	}		
 }
