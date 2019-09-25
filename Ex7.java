@@ -1,8 +1,5 @@
 package Ex07;
 
-import java.util.Timer;
-import java.util.TimerTask;
-import java.util.*;
 import java.util.Scanner;
 
 public class Ex7 {
@@ -11,7 +8,9 @@ public class Ex7 {
 		int somaChapa1 = 0;
 		int somaChapa2 =0;
 		int contador = 0;
+		// Pegando o tempo atual
 		long t = System.currentTimeMillis();
+		// Acrescentando o tempo atual + o tempo limite que eu propus
 		long end = t+60000;
 		try {
 			while(System.currentTimeMillis()<end) {
