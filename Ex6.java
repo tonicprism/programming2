@@ -4,9 +4,9 @@ public class Ex06 {
 	public static void main(String[] args) {
 		
 		// Lista de Heróis
-		String[] listaHerois = {"CapitaoAmerica", "HomemDeFerro"};
+		String[] listaHerois = {"CapitaoAmerica", "HomemDeFerro", "ViuvaNegra", "HomemAranha", "PanteraNegra","Hulk","Thor", "Wolverine","GaviaoArqueiro", "CapitaMarvel"};
 		// Lista de Vilões
-		String[] listaViloes = {"CaveiraVermelha", "Ultron"};
+		String[] listaViloes = {"CaveiraVermelha", "Ultron", "Thanos", "Magneto", "DuendeVerde", "Misterio", "HulkVermelho", "Loki", "Treinador","Ronan"};
 		
 		// Instancia da classe Scanner
 		Scanner s = new Scanner(System.in);
